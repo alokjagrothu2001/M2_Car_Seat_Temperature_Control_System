@@ -20,3 +20,4 @@ Folder                   | Description
 | Jagrothu Venkata Naga Alok |Temperature of the heater is modified|
 # Badges
 [![CI](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/main.yml/badge.svg)](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/main.yml)
+[![C/C++ CI](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/c-cpp.yml)
