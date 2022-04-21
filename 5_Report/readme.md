@@ -41,6 +41,13 @@ The operation of the heat or temperature control system has been coded in embedd
 * WHY: For being warm and comfortable.
 * HOW: Operates by varying the temperature according to the user.
 # Detail Requirements
+## Low Level Requirements
+| Requirements | Description |
+| --- | --- |
+| LLR1\_1 | ATmega328 |
+| LLR2\_1 | LM35 and ADC |
+| LLR2\_2 | ADC with PWM |
+| LLR3\_1 | LCD or LED&#39;S |
 ## High Level Requirements
 | Requirements | Description |
 | --- | --- |
@@ -52,4 +59,7 @@ The operation of the heat or temperature control system has been coded in embedd
 ![flowchart](https://user-images.githubusercontent.com/101423374/164446845-504f217f-6872-470c-a7a8-0a1197eafe3f.JPG)
 # Behavioural Diagram
 ![Behavioural Diagram](https://user-images.githubusercontent.com/101423374/164452026-ce0b9bd8-844f-4ee7-8aa6-70cd2958d77a.JPG)
+# Output
+![Pwm_20%](https://user-images.githubusercontent.com/101423374/164541847-a5dd0448-54d7-458f-a9d2-a8f5b2bb4a11.JPG)
+
 
