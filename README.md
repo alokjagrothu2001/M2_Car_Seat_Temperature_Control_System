@@ -22,3 +22,6 @@ Folder                   | Description
 [![CI](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/main.yml/badge.svg)](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/main.yml)
 [![C/C++ CI](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/c-cpp.yml)
 [![Contribution Check - Git Inspector](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/gitinspector.yml)
+# Code Quality
+## Codacy
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/128fb8ef2251449f9586bc7226add669)](https://www.codacy.com/gh/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alokjagrothu2001/M2_Car_Seat_Temperature_Control_System&amp;utm_campaign=Badge_Grade)
