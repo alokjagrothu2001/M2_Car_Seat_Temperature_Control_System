@@ -19,6 +19,7 @@ Folder                   | Description
 |---------|----------------|
 | Jagrothu Venkata Naga Alok |Temperature of the heater is modified|
 # Badges
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c79661773ae54982835e5de0ca962943)](https://app.codacy.com/gh/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System?utm_source=github.com&utm_medium=referral&utm_content=alokjagrothu2001/M2_Car_Seat_Temperature_Control_System&utm_campaign=Badge_Grade_Settings)
 [![CI](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/main.yml/badge.svg)](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/main.yml)
 [![C/C++ CI](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/c-cpp.yml)
 [![Contribution Check - Git Inspector](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/gitinspector.yml)
