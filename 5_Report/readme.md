@@ -61,5 +61,7 @@ The operation of the heat or temperature control system has been coded in embedd
 ![Behavioural Diagram](https://user-images.githubusercontent.com/101423374/164452026-ce0b9bd8-844f-4ee7-8aa6-70cd2958d77a.JPG)
 # Output
 ![Pwm_20%](https://user-images.githubusercontent.com/101423374/164541847-a5dd0448-54d7-458f-a9d2-a8f5b2bb4a11.JPG)
-
-
+# Challenges Faced and How Was It Overcome
+1. `Issue while running Makefile` - Make sure you have included all the files with .o extension and also include correct path for the test file
+2. `Issue with workflows` - Check you folder structure where all the files and makefile is present and include the path correctly
+3. `Issue with simulation in SimulIDE` - Make a circuit in SimulIDE and save it, then load the firmware into the microcontroller
