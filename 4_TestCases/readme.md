@@ -1,4 +1,4 @@
-# TEST PLAN
+# HIGH LEVEL TEST PLAN
 |TEST Cases NO.|DESCRIPTION|EXPECTED INPUT|EXPECTED OUTPUT|TESTING (PASS/FAIL) |
 |:--:|:--:|:--:|:--:|:--:|
 |TCN1|Activity 1| Both switches are On| Read ADC value| PASS|
