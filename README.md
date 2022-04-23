@@ -23,6 +23,7 @@ Folder                   | Description
 [![C/C++ CI](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/c-cpp.yml)
 [![Contribution Check - Git Inspector](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/gitinspector.yml)
 [![Valgrind](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/c-cpp1.yml/badge.svg)](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/c-cpp1.yml)
+[![Unit Testing](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/c-cpp1%20unit.yml/badge.svg)](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/c-cpp1%20unit.yml)
 # Code Quality
 ## Codiga
 ![Codiga  Badge](https://api.codiga.io/project/32961/score/svg)
