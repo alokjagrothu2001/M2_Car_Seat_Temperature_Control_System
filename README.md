@@ -18,10 +18,11 @@ Folder                   | Description
 |  Name   |    Features    |
 |---------|----------------|
 | Jagrothu Venkata Naga Alok |Temperature of the heater is modified|
-# Build Badges
+# Badges
 [![CI](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/main.yml/badge.svg)](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/main.yml)
 [![C/C++ CI](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/c-cpp.yml)
 [![Contribution Check - Git Inspector](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/gitinspector.yml)
+[![Valgrind](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/c-cpp1.yml/badge.svg)](https://github.com/alokjagrothu2001/M2_Car_Seat_Temperature_Control_System/actions/workflows/c-cpp1.yml)
 # Code Quality
 ## Codiga
 ![Codiga  Badge](https://api.codiga.io/project/32961/score/svg)
