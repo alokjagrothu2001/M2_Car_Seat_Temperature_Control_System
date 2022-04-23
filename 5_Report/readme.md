@@ -1,4 +1,6 @@
 # REPORT
+# Abstract
+The Seat Heating and Monitoring System is capable of keeping and maintaining car seat to the desired temperature. The button sensor in this project checks if the passenger is sitting in the seat or not, and once seated, the passenger must select the temperature according to his or her needs, after which the seat begins to heat and the corresponding temperature is displayed on the LCD. The operation of the heat or temperature control system has been coded in embedded c and the working is demonstrated using a simuation software called SimulIDE. This system will be done in 3 steps or in 3 activities. When the two switches are closed, the first LED glows indicating the actuation of the system and the heater. Then the analog input from the temperature sensor is received and it digitize that using ADC. The digitized temperature input is visualized using Pulse Width Modulation(PWM).
 # Requirements
 # Introduction
 The seat heating or temperature control system is capable of maintaining the temperature of the seat in the vehicle.In the European continent,the temperature is very low i.e. (negative temperatures) so, seat heater is an essential device which keeps the person warm. In this project the button sensor checks whether the person is seated or not and after the person is seated the person have to set the temperature according to his/her requirement and then the seat starts heating and the corresponding temperature is displayed on LCD. In this project the main aim is to design and develop the system which is capable of monitoring the presence of the person and temperature monitoring and adjusting and displaying the corresponding value.
@@ -54,11 +56,41 @@ The operation of the heat or temperature control system has been coded in embedd
 | HLR1 | Microcontroller |
 | HLR2 | Temperature Sensor |
 | HLR3 | LCD Display or LED&#39;s(different coloured) |
+# Required Components
+ATmega328, LM35 and ADC,ADC with PWM,LCD or LED&#39;S
+The overall circuit assembled on the breadboard. The microcontroller is interfaced with 16X2 LCD. 16X2 LCD Display There are various ways to interface the LCD display to microcontroller based on the coding technique and the platform used.
+
+The LCD has 16 pins.
+
+Pin no 1 and 2 are GND and Vcc respectively, and are used to power up the LCD.
+
+The Pin no 3 VEE, which can be used to adjust the contrast of LCD by varying the potentiometer. We shall connect it to ground in our setup.
+
+Pin no 4, 5 and 6 are the control pins of LCD and they decide the working of LCD. We shall connect these pins to PORT D of microcontroller.
+
+Pin 4 is RS (Register Select) and is connected to PIN 17 (PD3/INT1), Pin 5 is RW (Read / Write) and is connected to PIN 18 (PD4) and Pin 6 is E (Enable) which is connected to PIN 19 (PD5) of the microcontroller. Pin 7 to 14 are D0-D7 which are the data lines. They are connected to PORT A of the microcontroller (PIN 40-13).
+
+The pin 15 and 16 are for LCD back light and those pins will be connected to Vcc And Gnd.
 # Block Diagram![Block Diagram](https://user-images.githubusercontent.com/101423374/164446716-71e9b46e-8c20-4473-ab2f-5ee02a44b877.JPG)
 # Flowchart 
 ![flowchart](https://user-images.githubusercontent.com/101423374/164446845-504f217f-6872-470c-a7a8-0a1197eafe3f.JPG)
 # Behavioural Diagram
 ![Behavioural Diagram](https://user-images.githubusercontent.com/101423374/164452026-ce0b9bd8-844f-4ee7-8aa6-70cd2958d77a.JPG)
+# TEST PLAN
+## HIGH LEVEL TEST PLAN
+|TEST Cases NO.|DESCRIPTION|EXPECTED INPUT|EXPECTED OUTPUT|TESTING (PASS/FAIL) |
+|:--:|:--:|:--:|:--:|:--:|
+|H_01|Activity 1| Both switches are On| Read ADC value| PASS|
+|H_02|Activity 2| One switch is On and another switch is Off| NO Output| PASS|
+|H_03|Activity 3| Both switches are  Off| NO Output |PASS|
+
+## LOW LEVEL TEST PLAN
+|TEST Cases NO.|DESCRIPTION|EXPECTED INPUT|EXPECTED OUTPUT|TESTING (PASS/FAIL) |
+|:--:|:--:|:--:|:--:|:--:|
+|L_01|Is the user able to get into contents| exp in| exp out| PASS|
+|L_02|Is the user able to get working of LCD| exp in| exp out| PASS|
+|L_03|Is the user able to get working of buttons| exp in| exp out |PASS|
+
 # Output
 ![Pwm_20%](https://user-images.githubusercontent.com/101423374/164541847-a5dd0448-54d7-458f-a9d2-a8f5b2bb4a11.JPG)
 # Challenges Faced and How Was It Overcome
